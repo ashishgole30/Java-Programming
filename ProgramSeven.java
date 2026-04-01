@@ -33,7 +33,20 @@ public class ProgramSeven {
             }
             System.out.println("------------");
         }
+
+        int i6 = 1;
+        for (; i6 <= 10;) {
+            System.out.println(i6);
+            i6++;
+        }
+
         // first initial value considered, then condition checked , then block of code
         // implemented , the update of initial value
+
+        // which loop to use when?
+        // if u know how many iterations -> for loop
+        // while loop for condition based
+        // do while when even if the codition is false you want to execute something
+        // atleast once
     }
 }
