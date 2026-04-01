@@ -3,28 +3,28 @@ public class ProgramSix {
         // Loops-while , do while , for
 
         // while
-        int i = 1;
+        int i1 = 1;
 
-        while (i <= 4) {
-            System.out.println("hi " + i);
-            i++;
+        while (i1 <= 4) {
+            System.out.println("hi " + i1);
+            i1++;
         }
         // value of i maintained
-        System.out.println("while loop ended " + i);
+        System.out.println("while loop ended " + i1);
 
         System.out.println("-----------------------");
 
         // nested while
-        int ii = 1;
+        int i2 = 1;
 
-        while (ii <= 4) {
-            System.out.println("hi " + ii);
-            int jj = 1;
-            while (jj <= 3) {
-                System.out.println("hello " + jj);
-                jj++;
+        while (i2 <= 4) {
+            System.out.println("hi " + i2);
+            int j = 1;
+            while (j <= 3) {
+                System.out.println("hello " + j);
+                j++;
             }
-            ii++;
+            i2++;
         }
     }
 }
