@@ -24,8 +24,16 @@ public class ProgramSeven {
         }
 
         System.out.println("--------------------------");
-        for (int i5 = 1; i5 <= 7; i5++) {
+        for (int i5 = 1; i5 <= 5; i5++) {
             System.out.println("DAY " + i5);
+
+            for (int j = 1; j <= 5; j++) {
+                System.out.println("Hour Number " + j);
+
+            }
+            System.out.println("------------");
         }
+        // first initial value considered, then condition checked , then block of code
+        // implemented , the update of initial value
     }
 }
