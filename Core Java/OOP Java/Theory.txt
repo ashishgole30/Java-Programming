@@ -1,0 +1,13 @@
+WHAT IS THERE INSIDE JVM?
+
+1. MEMORY LEVEL :
+Inside JVM MEMORY we can categorize it into 2 parts
+
+A. STACK 
+LAST IN FIRST OUT
+CALLED STACK MEMORY
+it will have key and value
+
+B. HEAP MEMORY
+
+EVERY METHOD WILL HAVE ITS OWN STACK
