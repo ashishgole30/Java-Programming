@@ -37,7 +37,7 @@ public class One {
         // Mutabble String = can change
         // Immutabble String = cannot change
         // By Default Strings are immutable in java
-        // Once you create an object you cannot change itj
+        // Once you create an object you cannot change it
 
     }
 }
