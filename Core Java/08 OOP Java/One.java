@@ -17,14 +17,25 @@ public class One {
         int r4 = obj2.multi(5, 5);
         int r5 = obj2.div(10, 5);
 
+        VeryAdvCalc obj3 = new VeryAdvCalc();
+        double r6 = obj3.power(5, 4);
+        int r7 = obj3.multi(2, 5);
+
         System.out.println("Addition :" + r1);
         System.out.println("Subtraction :" + r2);
         System.out.println("Addition :" + r3);
         System.out.println("Multiplication :" + r4);
         System.out.println("Division :" + r5);
+        System.out.println("Power :" + r6);
+        System.out.println("Multiplication :" + r7);
 
         // Use keyword "extends"
         // Advance calculator is a sub class of super class calculator
+
+        // calc <- advcalc <- very adv calc
+        // This is called multilevel inheritance
+        // only two classes then single level inheritance
+        // multiple classes then multilevel inheritance
     }
 }
 
