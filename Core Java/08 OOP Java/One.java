@@ -23,6 +23,8 @@ public class One {
         System.out.println("Multiplication :" + r4);
         System.out.println("Division :" + r5);
 
+        // Use keyword "extends"
+        // Advance calculator is a sub class of super class calculator
     }
 }
 
