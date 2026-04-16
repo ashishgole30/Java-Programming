@@ -18,7 +18,7 @@ class A {
     }
 }
 
-class B extends A {
+class B extends Hello {
 
     public void show() {
         System.out.println("in B show");
