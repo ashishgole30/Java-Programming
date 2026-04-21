@@ -13,7 +13,7 @@ class A {
 
 }
 
-public class Demo {
+public class DemoOne {
     public static void main(String[] args) {
         // INNER CLASS
 
