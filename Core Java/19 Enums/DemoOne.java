@@ -5,7 +5,7 @@ enum Status {
     // 0 ,1 ,2 ,3
 }
 
-public class Demo {
+public class DemoOne {
     public static void main(String[] args) {
 
         // ENUMS
