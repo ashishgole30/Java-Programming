@@ -24,3 +24,6 @@ public class One {
         obj.showTheDataWhichBelongsToThisClass();
     }
 }
+
+// @Deprecated
+// You can use it , but it is not recommended to use it
