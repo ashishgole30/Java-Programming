@@ -9,15 +9,23 @@ final class B extends A {
 
     // class b and c should either be
     // sealed , non sealed or final
+
+    // non sealed->can be extended by someone else
+    // final -> no one can extend
+    // sealed -> needs permit if want to extend
 }
 
 final class C extends A {
 
 }
 
-class D {
+class D // extends A gives exception
+{
 
 }
+
+// interfaces can be sealed or non sealed
+// but not final~
 
 public class One {
     public static void main(String[] args) {
